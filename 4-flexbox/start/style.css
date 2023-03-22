@@ -1,0 +1,47 @@
+
+
+.body-container{
+    position: absolute;
+    display:flex;
+    flex-direction: row;
+    overflow: hidden;
+    height: 100%;
+}
+
+.logo-image{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.sidebar{
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    
+    background-color: rgb(65, 189, 143);
+    justify-content: flex-start;}
+
+
+.nav-links a{
+    color:aliceblue;
+    transition: 0.3s;
+}
+.nav-links a:hover{
+    color: #2b2bb2;
+    transition: 0.3s;
+}
+.avatar-and-username{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    flex: 1;
+}
+
+.avatar-image{
+    max-width: 200px;
+    max-height: 200px;
+
+}
