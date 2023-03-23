@@ -1,0 +1,14 @@
+.body-container{
+    display:flex;
+    justify-content: space-around;
+}
+#orange{
+    flex:2;
+    order: 1;
+}
+#blue{
+    order: 1;
+}
+#green{
+    order: 1;
+}
