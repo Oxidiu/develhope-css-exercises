@@ -1,0 +1,224 @@
+.body-container{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 70px 70px 70px 70px 70px 70px;
+    grid-template-areas: 
+    "number number number number"
+    "plus minus multiply division"
+    "seven eight nine equal"
+    "four five six equal"
+    "one two three equal"
+    "zero dot AC equal";
+    border: 1px solid;
+    border-radius: 20px;
+    margin:5px;
+    overflow: hidden;
+    box-shadow: 1px 1px 10px grey;
+}
+
+#number{
+    grid-area: number;
+    display:flex;
+    justify-content: right;
+    align-items: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 30px;
+    padding:5px;
+    color:aliceblue;
+    background-color: rgb(67, 65, 65);
+    border: 2px solid gray,
+
+}
+
+#plus{
+    grid-area: plus;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: aquamarine;
+    border: 1px solid grey;
+}
+
+#minus{
+    grid-area: minus;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: aquamarine;
+    border: 1px solid grey;
+}
+
+#multiply{
+    grid-area: multiply;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: aquamarine;
+    border: 1px solid grey;
+}
+
+#division{
+    grid-area: division;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: aquamarine;
+    border: 1px solid grey;
+}
+
+#seven{
+    grid-area:seven;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    border: 1px solid grey;
+}
+
+#eight{
+    grid-area: eight;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    border: 1px solid grey;
+}
+
+#nine{
+    grid-area: nine;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    border: 1px solid grey;
+}
+
+#four{
+    grid-area: four;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    border: 1px solid grey;
+}
+
+#five{
+    grid-area: five;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    border: 1px solid grey;
+}
+
+#six{
+    grid-area: six;  
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    border: 1px solid grey;
+}
+
+#one{
+    grid-area: one;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    border: 1px solid grey;
+}
+
+#two{
+    grid-area: two;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    border: 1px solid grey;
+}
+
+#three{
+    grid-area: three;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    border: 1px solid grey;
+}
+
+#zero{
+    grid-area: zero;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    border: 1px solid grey;
+}
+
+#dot{
+    grid-area: dot;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    border: 1px solid grey;
+}
+
+#AC{
+    grid-area: AC;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    border: 1px solid grey;
+}
+
+#equal{
+    grid-area: equal;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    border: 1px solid grey;
+    background-color:crimson
+}
