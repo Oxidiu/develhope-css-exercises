@@ -1,0 +1,142 @@
+:root{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.body-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+
+.section1 {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(180, 179, 179);
+    max-width: 300px;
+    border-radius: 25px 25px 0 0;
+
+}
+.section1 div{
+    display: flex;
+}
+
+.section1 img:first-child{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    padding:0.4rem;
+}
+
+.section1 div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    margin: 0;
+}
+
+.user p{
+    padding: 1px;
+    margin: 0;
+}
+.user p:first-child{
+    font-size: 13px;
+}
+.user p:nth-child(2){
+    font-size: 10px;
+    color: aliceblue;
+}
+
+.dots{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    padding-bottom: 25px;
+    padding-right: 10px;
+    justify-content: end;
+    flex:auto;
+    font-size: 40px;
+    margin:0;
+    line-height: 0;
+}
+
+.section2{
+    background-color: rgb(180, 179, 179);
+    max-width: 300px;
+
+}
+
+.section2 img{
+    max-width: 100%;
+}
+
+.section3{
+    display: flex;
+    background-color: rgb(180, 179, 179);
+    max-width: 300px;
+
+}
+.section3 img:nth-child(1){
+    max-width: 25px;
+    max-height: 25px;
+    padding:30px 0px 5px 30px;
+}
+.section3 img:nth-child(2){
+    max-width: 25px;
+    max-height: 25px;
+    padding:30px 0px 5px 18px;
+}
+
+.section4{
+    background-color: rgb(180, 179, 179);
+   
+    
+    border-radius: 0 0 25px 25px;
+    max-width: 300px;
+
+}
+.section4 p{
+    padding:15px;
+    padding-bottom: 40px;
+    font-size: 13px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .body-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+}
+
+
+@media screen and (max-width: 750px) {
+    .body-container{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .body-container{
+        display: flex;
+        justify-content: center;
+    }
+}
+
