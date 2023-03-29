@@ -1,37 +1,78 @@
 body{
-
+    margin: 0;
 }
 
-.nav-list{
+nav{
     display: flex;
     list-style-type: none;
     justify-content: flex-start;
+    align-items: center;
     padding-left: 0.3rem;
+    gap: 20px;
+    justify-content: space-between;
+    font-family: 'Rubik', sans-serif;
+    background-color: #212528;
+    padding: 10px;
 }
-.nav-list li:nth-child(1) {
-    margin-right: 0.5rem
-
+.navbar-left{
+    display: flex;
+    gap: 20px;
 }
-.nav-list li:nth-child(2) {
-    margin-right: 0.5rem
-
-}
-.nav-list li:nth-child(3) {
-    margin-right: 0.5rem
-
-}
-.nav-list li:nth-child(4) {
-    margin-right: 3rem
-
-}
-
-.nav-list li:nth-child(5) {
-    margin-right: 0.5rem;
-
-}
-
-.nav-list a {
+.navbar a{
     text-decoration: none;
+    color: #ffffff;
+    font-size: 17px;
+
+}
+.navbar-left-fraction{
+    display: flex;
+    gap: 20px;
+    font-size: 15px;
+
+}
+.navbar-left-fraction a{
+    text-decoration: none;
+    color: #9b9d9f;
+}
+#home{
+    color: #ffffff;
+}
+
+#dropdown-arrow{
+    width: 9px;
+    padding-bottom: 2px;
+}
+.disabled a{
+    text-decoration: none;
+    color: #5a5b60;
+    font-size: 15px;
+
+}
+.navbar-right{
+    display: flex;
+    justify-content: end;
+    gap: 4px;
+}
+#search{
+    font-family: 'Rubik', sans-serif;
+    padding: 5px;
+    border: #ced5d9 solid 2px;
+    border-radius: 3px;
+}
+#search-button{
+    font-family: 'Rubik', sans-serif;
+    padding: 5px;
+    border: #1b8654 solid 2px;
+    color: #1b8654;
+    border-radius: 3px;
+    background-color: #212528;
+    transition: 500ms;
+}
+#search-button:hover{
+    cursor:pointer;
+    background-color: #1b8654;
+    color: #ffffff;
+    
 }
 .hamburger-menu-button-icon{
     display:none;
@@ -41,14 +82,14 @@ body{
     cursor: pointer;
 }
 @media screen and (max-width: 768px){
-    .nav-list{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-
+    .navbar-left-fraction{
+        display: none;
     }
-    .nav-list li{
-        padding: 0.5rem;
+    .navbar-right{
+        display:none;
+    }
+    .disabled{
+        display: none;
     }
     .hamburger-menu-button-icon{
         display: block;
